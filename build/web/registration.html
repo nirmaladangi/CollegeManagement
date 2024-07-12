@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>registration page</title>
+    
+       <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="gray">
+        <form action="RegistrationChecker" Method="Post">
+            <table>
+            <label for="role">Choose role:</label>
+            <select id="role" name="role">
+            <option value="hod">hod</option>
+            <option value="faculty">faculty</option>
+            <option value="student">student</option> 
+            <option value="admin">admin</option> 
+            </select>
+           
+                <tr>
+                    <td><strong>Username:</Strong></td>
+                    <td><INPUT TYPE="text" name="username" placeholder="enter username here..."/></td>
+                </tr>
+                <tr>
+                    <td><strong>User-id :</Strong></td>
+                    <td><INPUT TYPE="text" NAME="id" placeholder="enter id here..."/></td>
+                </tr>
+                <tr>
+                    <td><strong>Password :</Strong></td>
+                    <td><INPUT TYPE="password" NAME="password" placeholder="enter password here..."/></td>
+                </tr>
+                <tr>
+                    <td><strong>Salary :</Strong></td>
+                    <td><INPUT TYPE="TEXT" NAME="salary" placeholder="enter salary here..."/></td>
+                </tr>
+                <tr>
+                    <td><strong>City :</Strong></td>
+                    <td><INPUT TYPE="TEXT" NAME="city" placeholder="enter city here..."/></td>
+                </tr>
+                  
+                <tr>
+                    <td><strong>Department:</strong></td>
+                    <td><input type="text" name="department" placeholder="enter department here"></td>
+                </tr>
+                 
+                <tr>
+                    <td><strong>Contact_no.</strong></td>
+                    <td><input type="text" name="contact_no" placeholder="enter Contact number" /></td>
+                </tr>
+               
+                <tr>
+                    <td><lable for="datepicker">Choose Joining_Date:</lable></td>
+                    <td><input type="date" name="date" id="datepicker"/></td>
+                </tr>
+                </tr>
+                <BR>
+                <tr>
+                    <td><INPUT TYPE="SUBMIT" value="submit"/></td>
+                </tr>
+                
+            </table>
+            </from>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>removeuser page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body bgcolor="gray">
+      <form action="RemoveUserChecker" Method="Post">
+          <h1><b>Remove_User</b></h1>
+        <table>
+            <div>
+               <tr>
+                 <td><strong>User-id :</Strong></td>
+                 <td><INPUT TYPE="text" NAME="id" id="id"/></td>
+               </tr>
+               </div>
+        </table>
+            <div> 
+             <label for="role">Choose role:</label>
+            <select id="role" name="role">
+            <option value="hod">Hod</option>
+            <option value="faculty">Faculty</option>
+            <option value="student">Student</option>  
+            </select>
+            </div>
+          
+                <tr>
+                    <td><INPUT TYPE="SUBMIT" value="submit"/></td>
+                </tr>   
+       </form>    
+    </body>
+</html>
